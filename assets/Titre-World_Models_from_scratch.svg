@@ -1,0 +1,85 @@
+<svg viewBox="0 0 1400 420" xmlns="http://www.w3.org/2000/svg" width="1400" height="420" preserveAspectRatio="xMidYMid meet">
+  <title>World Models from Scratch</title>
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&amp;display=swap');
+      text { font-family: 'Inter', 'Segoe UI', system-ui, sans-serif; }
+    </style>
+
+    <filter id="shadow-hero" x="-10%" y="-10%" width="125%" height="135%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#0000001A"/>
+    </filter>
+    <filter id="glow-hero" x="-40%" y="-40%" width="180%" height="180%">
+      <feDropShadow dx="0" dy="0" stdDeviation="7" flood-color="#EF444499"/>
+    </filter>
+
+    <linearGradient id="grad-title" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3B82F6"/>
+      <stop offset="100%" style="stop-color:#8B5CF6"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1400" height="420" fill="#FFFFFF"/>
+
+  <!-- ===== LEFT : wordmark ===== -->
+  <g>
+    <rect x="70" y="96" width="196" height="28" rx="14" fill="#EFF6FF"/>
+    <text x="168" y="115" font-size="12" font-weight="700" fill="#1D4ED8" text-anchor="middle" letter-spacing="0.8">🌍  BUILT FROM SCRATCH</text>
+  </g>
+
+  <text x="70" y="196" font-size="62" font-weight="800" fill="#111827" letter-spacing="-1.5">WORLD MODELS</text>
+  <text x="70" y="252" font-size="40" font-weight="300" fill="url(#grad-title)" letter-spacing="-0.5">from scratch</text>
+
+  <line x1="70" y1="284" x2="200" y2="284" stroke="#3B82F6" stroke-width="3" stroke-linecap="round"/>
+
+  <text x="70" y="318" font-size="15" font-weight="600" fill="#374151">Predict the representation, never the pixels.</text>
+  <text x="70" y="342" font-size="14" font-weight="400" fill="#6B7280">A JEPA world model that detects broken physics by being surprised,</text>
+  <text x="70" y="362" font-size="14" font-weight="400" fill="#6B7280">aimed at the Meta FAIR physical reasoning leaderboard.</text>
+
+  <!-- ===== RIGHT : the concept in one picture ===== -->
+  <!-- frames -->
+  <g>
+    <rect x="800" y="106" width="104" height="72" rx="7" fill="#1E293B"/>
+    <line x1="808" y1="164" x2="896" y2="164" stroke="#475569" stroke-width="2"/>
+    <rect x="874" y="128" width="6" height="36" rx="2" fill="#94A3B8"/>
+    <circle cx="822" cy="155" r="8" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <rect x="926" y="106" width="104" height="72" rx="7" fill="#1E293B"/>
+    <line x1="934" y1="164" x2="1022" y2="164" stroke="#475569" stroke-width="2"/>
+    <rect x="1000" y="128" width="6" height="36" rx="2" fill="#94A3B8"/>
+    <circle cx="968" cy="155" r="8" fill="#FFFFFF"/>
+  </g>
+  <g>
+    <rect x="1052" y="106" width="104" height="72" rx="7" fill="#1E293B"/>
+    <line x1="1060" y1="164" x2="1148" y2="164" stroke="#475569" stroke-width="2"/>
+    <rect x="1126" y="128" width="6" height="36" rx="2" fill="#94A3B8"/>
+    <circle cx="1114" cy="155" r="8" fill="#FFFFFF"/>
+  </g>
+  <g filter="url(#glow-hero)">
+    <rect x="1178" y="106" width="104" height="72" rx="7" fill="#1E293B" stroke="#EF4444" stroke-width="2.4"/>
+  </g>
+  <line x1="1186" y1="164" x2="1274" y2="164" stroke="#475569" stroke-width="2"/>
+  <rect x="1252" y="128" width="6" height="36" rx="2" fill="#94A3B8"/>
+  <circle cx="1270" cy="155" r="8" fill="#FFFFFF"/>
+
+  <text x="1230" y="204" font-size="11" font-weight="700" fill="#DC2626" text-anchor="middle">physics broken</text>
+
+  <!-- energy curve -->
+  <text x="800" y="236" font-size="10.5" font-weight="700" fill="#64748B" letter-spacing="0.6">ENERGY</text>
+  <line x1="800" y1="246" x2="800" y2="342" stroke="#CBD5E1" stroke-width="1.5"/>
+  <line x1="800" y1="342" x2="1300" y2="342" stroke="#CBD5E1" stroke-width="1.5"/>
+  <line x1="800" y1="318" x2="1300" y2="318" stroke="#E2E8F0" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <polyline points="808,326 866,320 924,328 982,319 1040,325 1098,317 1156,323 1214,258 1252,286 1294,312"
+            fill="none" stroke="#EF4444" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="1214" cy="258" r="6.5" fill="#EF4444"/>
+  <circle cx="1214" cy="258" r="12" fill="none" stroke="#EF4444" stroke-width="1.6" opacity="0.4"/>
+
+  <g>
+    <rect x="1058" y="242" width="122" height="26" rx="13" fill="#FEE2E2"/>
+    <text x="1119" y="260" font-size="11.5" font-weight="700" fill="#991B1B" text-anchor="middle">surprise spike</text>
+  </g>
+
+  <text x="1306" y="346" font-size="10" fill="#94A3B8">time</text>
+</svg>
