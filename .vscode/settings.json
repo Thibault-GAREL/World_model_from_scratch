@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/__init__.py": false,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.pytest_cache": true,
+    "**/.mypy_cache": true,
+    "**/.ruff_cache": true
+  },
+  "python.defaultInterpreterPath": "c:\\0-Code_py_temp\\pytorch_py310\\Scripts\\python.exe",
+  "editor.rulers": [88, 100],
+  "files.trimTrailingWhitespace": true
+}
